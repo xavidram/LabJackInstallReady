@@ -8,9 +8,9 @@ import os, subprocess
 #pull git repositories
 #exo driver first
 subprocess.call(["git" , "clone" , "https://github.com/labjack/exodriver.git"])
-subprocess.call("./install.sh" , cwd="/home/pi/LabJackInstallReady/exodriver/")
+subprocess.call(["sudo","./install.sh"] , cwd="/home/pi/LabJackInstallReady/exodriver/")
 #labjackpython library
 subprocess.call(["git" , "clone" , "https://github.com/labjack/LabJackPython.git"])
-subprocess.call(["python" , "setup.py" , "install"] , cwd="/home/pi/LabJackInstallReady/LabJackPython/")
+subprocess.call(["sudo","python" , "setup.py" , "install"] , cwd="/home/pi/LabJackInstallReady/LabJackPython/")
 
 #setup complete.
