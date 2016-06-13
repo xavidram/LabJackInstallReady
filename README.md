@@ -2,7 +2,7 @@
 Python script to autoinstall LabJack drivers and python libraries for full use.
 Read the README text file for installation instructions.
 
-Instructions:
+#Instructions:
 1. Turn on and log into your Raspberry Pi (default credentials for jessie OS is username: pi   Password: raspberry)
 2. Make sure you have internet connection via ethernet cable or connect to a wifi network using the integrated wifi module.
 3. Install git by runnin the following command without quotations ' sudo apt-get install -y git '
