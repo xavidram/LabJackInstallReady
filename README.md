@@ -1,6 +1,5 @@
 # LabJackInstallReady
 Python script to autoinstall LabJack drivers and python libraries for full use.
-Read the README text file for installation instructions.
 
 #Instructions:
 1. Turn on and log into your Raspberry Pi (default credentials for jessie OS is username: pi   Password: raspberry)
