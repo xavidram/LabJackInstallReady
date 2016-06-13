@@ -1,9 +1,9 @@
 import os, subprocess
 
 #install essentials and base tools
-#subprocess.call(["sudo" , "apt-get" , "-y" , "update"])
-#subprocess.call(["sudo" , "apt-get" , "-y" , "upgrade"])
-#subprocess.call(["sudo" , "apt-get" , "install" ,"-y", "libusb-1.0" , "git"])
+subprocess.call(["sudo" , "apt-get" , "-y" , "update"])
+subprocess.call(["sudo" , "apt-get" , "-y" , "upgrade"])
+subprocess.call(["sudo" , "apt-get" , "install" ,"-y", "libusb-1.0" , "git"])
 
 #pull git repositories
 #exo driver first
